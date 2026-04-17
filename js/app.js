@@ -2,8 +2,8 @@ const content = document.getElementById("content");
 
 const titles = {
   home: "Home",
-  about_me: "Kdo sem",
-  about_work: "Kaj delam",
+  links: "Links",
+  SVS: "SVS HQ positioning",
   Poldka: "Poldka testira",
   gallery: "Galerija",
   contact: "Kontakt",
