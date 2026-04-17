@@ -1,1 +1,22 @@
-﻿<div class="neon-text">https://lastz.fandom.com/wiki/Special:AllPages</div>
+﻿<a href="https://lastz.fandom.com/wiki/Special:AllPages" target="_blank" class="neon-text neon-pulse">Last-Z Fandom Wiki</a>
+
+<style>
+@keyframes neon-glow {
+  0%, 100% {
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+  50% {
+    text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
+  }
+}
+
+.neon-text {
+  color: #00ff00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.neon-pulse {
+  animation: neon-glow 1.5s ease-in-out infinite;
+}
+</style>
