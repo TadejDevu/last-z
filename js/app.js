@@ -1,7 +1,7 @@
 const content = document.getElementById("content");
 
 const titles = {
-  home: "Domov",
+  home: "Home",
   about_me: "Kdo sem",
   about_work: "Kaj delam",
   Poldka: "Poldka testira",
